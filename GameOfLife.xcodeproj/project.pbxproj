@@ -1,0 +1,957 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		286154D42761FB94004FFF52 /* GOLModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EED6C6275FC9ED00E97E98 /* GOLModel.swift */; };
+		286154D52761FB95004FFF52 /* GOLModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EED6C6275FC9ED00E97E98 /* GOLModel.swift */; };
+		286154D72762069F004FFF52 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286154D62762069F004FFF52 /* Grid.swift */; };
+		286154D82762069F004FFF52 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286154D62762069F004FFF52 /* Grid.swift */; };
+		286154DA276206D2004FFF52 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286154D9276206D2004FFF52 /* Cell.swift */; };
+		286154DB276206D2004FFF52 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286154D9276206D2004FFF52 /* Cell.swift */; };
+		286154DE27620765004FFF52 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286154DD27620765004FFF52 /* CellView.swift */; };
+		286154DF27620765004FFF52 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286154DD27620765004FFF52 /* CellView.swift */; };
+		286154E227620FB8004FFF52 /* ContentView+ToolbarContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286154E127620FB8004FFF52 /* ContentView+ToolbarContent.swift */; };
+		286154E427620FCB004FFF52 /* ContentView+ToolbarContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286154E327620FCB004FFF52 /* ContentView+ToolbarContent.swift */; };
+		286154E62762108A004FFF52 /* ContentView+ToolbarActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286154E52762108A004FFF52 /* ContentView+ToolbarActions.swift */; };
+		286154E8276210BC004FFF52 /* ContentView+Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286154E7276210BC004FFF52 /* ContentView+Grid.swift */; };
+		286154E92762118F004FFF52 /* ContentView+ToolbarActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286154E52762108A004FFF52 /* ContentView+ToolbarActions.swift */; };
+		286154EA2762119C004FFF52 /* ContentView+Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286154E7276210BC004FFF52 /* ContentView+Grid.swift */; };
+		286154EC2762121D004FFF52 /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286154EB2762121D004FFF52 /* CustomNavigationView.swift */; };
+		286154ED2762121D004FFF52 /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286154EB2762121D004FFF52 /* CustomNavigationView.swift */; };
+		286154EF276213E2004FFF52 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286154EE276213E2004FFF52 /* SettingsView.swift */; };
+		286154F0276213E2004FFF52 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286154EE276213E2004FFF52 /* SettingsView.swift */; };
+		28EED6A3275FC87600E97E98 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EED6A2275FC87600E97E98 /* Tests_iOS.swift */; };
+		28EED6A5275FC87600E97E98 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EED6A4275FC87600E97E98 /* Tests_iOSLaunchTests.swift */; };
+		28EED6AF275FC87600E97E98 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EED6AE275FC87600E97E98 /* Tests_macOS.swift */; };
+		28EED6B1275FC87600E97E98 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EED6B0275FC87600E97E98 /* Tests_macOSLaunchTests.swift */; };
+		28EED6B2275FC87600E97E98 /* GameOfLifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EED68A275FC87500E97E98 /* GameOfLifeApp.swift */; };
+		28EED6B3275FC87600E97E98 /* GameOfLifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EED68A275FC87500E97E98 /* GameOfLifeApp.swift */; };
+		28EED6B4275FC87600E97E98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EED68B275FC87500E97E98 /* ContentView.swift */; };
+		28EED6B5275FC87600E97E98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EED68B275FC87500E97E98 /* ContentView.swift */; };
+		28EED6B6275FC87600E97E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28EED68C275FC87600E97E98 /* Assets.xcassets */; };
+		28EED6B7275FC87600E97E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28EED68C275FC87600E97E98 /* Assets.xcassets */; };
+		28EED6C7275FC9ED00E97E98 /* GOLModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EED6C6275FC9ED00E97E98 /* GOLModel.swift */; };
+		28EED6C8275FC9ED00E97E98 /* GOLModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EED6C6275FC9ED00E97E98 /* GOLModel.swift */; };
+		3C68A0A32A1644F500507A8C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C68A0A22A1644F500507A8C /* GoogleService-Info.plist */; };
+		3C68A0A42A1644F500507A8C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C68A0A22A1644F500507A8C /* GoogleService-Info.plist */; };
+		3C68A0A72A16473300507A8C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C68A0A62A16473300507A8C /* LoginView.swift */; };
+		3C68A0A82A16473300507A8C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C68A0A62A16473300507A8C /* LoginView.swift */; };
+		E898B2515D859C7BBD09D4A4 /* Pods_GameOfLife__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553ED4E8F8E76461D8B767E7 /* Pods_GameOfLife__macOS_.framework */; };
+		F0174B9B87B590308B844195 /* Pods_GameOfLife__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD98830FF830A3327DC80519 /* Pods_GameOfLife__iOS_.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28EED69F275FC87600E97E98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28EED685275FC87500E97E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28EED690275FC87600E97E98;
+			remoteInfo = "GameOfLife (iOS)";
+		};
+		28EED6AB275FC87600E97E98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28EED685275FC87500E97E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28EED696275FC87600E97E98;
+			remoteInfo = "GameOfLife (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		286154D62762069F004FFF52 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		286154D9276206D2004FFF52 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		286154DD27620765004FFF52 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		286154E127620FB8004FFF52 /* ContentView+ToolbarContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView+ToolbarContent.swift"; sourceTree = "<group>"; };
+		286154E327620FCB004FFF52 /* ContentView+ToolbarContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView+ToolbarContent.swift"; sourceTree = "<group>"; };
+		286154E52762108A004FFF52 /* ContentView+ToolbarActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView+ToolbarActions.swift"; sourceTree = "<group>"; };
+		286154E7276210BC004FFF52 /* ContentView+Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView+Grid.swift"; sourceTree = "<group>"; };
+		286154EB2762121D004FFF52 /* CustomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationView.swift; sourceTree = "<group>"; };
+		286154EE276213E2004FFF52 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		286154F52762291A004FFF52 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		28EED68A275FC87500E97E98 /* GameOfLifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfLifeApp.swift; sourceTree = "<group>"; };
+		28EED68B275FC87500E97E98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		28EED68C275FC87600E97E98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28EED691275FC87600E97E98 /* GameOfLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EED697275FC87600E97E98 /* GameOfLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EED699275FC87600E97E98 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		28EED69E275FC87600E97E98 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EED6A2275FC87600E97E98 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		28EED6A4275FC87600E97E98 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		28EED6AA275FC87600E97E98 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EED6AE275FC87600E97E98 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		28EED6B0275FC87600E97E98 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		28EED6C6275FC9ED00E97E98 /* GOLModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOLModel.swift; sourceTree = "<group>"; };
+		3C68A0A22A1644F500507A8C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3C68A0A62A16473300507A8C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		553ED4E8F8E76461D8B767E7 /* Pods_GameOfLife__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameOfLife__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C0005381CF4704D6E07762 /* Pods-GameOfLife (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameOfLife (macOS).release.xcconfig"; path = "Target Support Files/Pods-GameOfLife (macOS)/Pods-GameOfLife (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		E08E9506DFE434C42D3B7925 /* Pods-GameOfLife (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameOfLife (iOS).release.xcconfig"; path = "Target Support Files/Pods-GameOfLife (iOS)/Pods-GameOfLife (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		EC22C4600D5B6C79C1AEB462 /* Pods-GameOfLife (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameOfLife (macOS).debug.xcconfig"; path = "Target Support Files/Pods-GameOfLife (macOS)/Pods-GameOfLife (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		F248468F0FA44E9CD48711B8 /* Pods-GameOfLife (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameOfLife (iOS).debug.xcconfig"; path = "Target Support Files/Pods-GameOfLife (iOS)/Pods-GameOfLife (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		FD98830FF830A3327DC80519 /* Pods_GameOfLife__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameOfLife__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28EED68E275FC87600E97E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0174B9B87B590308B844195 /* Pods_GameOfLife__iOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EED694275FC87600E97E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E898B2515D859C7BBD09D4A4 /* Pods_GameOfLife__macOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EED69B275FC87600E97E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EED6A7275FC87600E97E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		286154DC27620736004FFF52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				28EED6C6275FC9ED00E97E98 /* GOLModel.swift */,
+				286154D62762069F004FFF52 /* Grid.swift */,
+				286154D9276206D2004FFF52 /* Cell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		286154E0276209B6004FFF52 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				286154E327620FCB004FFF52 /* ContentView+ToolbarContent.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		286154F12762230C004FFF52 /* Helper Views */ = {
+			isa = PBXGroup;
+			children = (
+				286154DD27620765004FFF52 /* CellView.swift */,
+				286154EB2762121D004FFF52 /* CustomNavigationView.swift */,
+			);
+			path = "Helper Views";
+			sourceTree = "<group>";
+		};
+		286154F22762231E004FFF52 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				286154F32762232F004FFF52 /* ContentView */,
+				286154F427622336004FFF52 /* SettingsView */,
+				286154F12762230C004FFF52 /* Helper Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		286154F32762232F004FFF52 /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				28EED68B275FC87500E97E98 /* ContentView.swift */,
+				3C68A0A62A16473300507A8C /* LoginView.swift */,
+				286154E7276210BC004FFF52 /* ContentView+Grid.swift */,
+				286154E52762108A004FFF52 /* ContentView+ToolbarActions.swift */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		286154F427622336004FFF52 /* SettingsView */ = {
+			isa = PBXGroup;
+			children = (
+				286154EE276213E2004FFF52 /* SettingsView.swift */,
+			);
+			path = SettingsView;
+			sourceTree = "<group>";
+		};
+		28EED684275FC87500E97E98 = {
+			isa = PBXGroup;
+			children = (
+				286154F52762291A004FFF52 /* README.md */,
+				28EED689275FC87500E97E98 /* Shared */,
+				286154E0276209B6004FFF52 /* iOS */,
+				28EED698275FC87600E97E98 /* macOS */,
+				28EED6A1275FC87600E97E98 /* Tests iOS */,
+				28EED6AD275FC87600E97E98 /* Tests macOS */,
+				28EED692275FC87600E97E98 /* Products */,
+				E60BB9D29C517FC034D0960E /* Pods */,
+				9B1B5B0538377BB50E828116 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		28EED689275FC87500E97E98 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				28EED68A275FC87500E97E98 /* GameOfLifeApp.swift */,
+				286154F22762231E004FFF52 /* Views */,
+				286154DC27620736004FFF52 /* Model */,
+				28EED68C275FC87600E97E98 /* Assets.xcassets */,
+				3C68A0A22A1644F500507A8C /* GoogleService-Info.plist */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		28EED692275FC87600E97E98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28EED691275FC87600E97E98 /* GameOfLife.app */,
+				28EED697275FC87600E97E98 /* GameOfLife.app */,
+				28EED69E275FC87600E97E98 /* Tests iOS.xctest */,
+				28EED6AA275FC87600E97E98 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28EED698275FC87600E97E98 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				28EED699275FC87600E97E98 /* macOS.entitlements */,
+				286154E127620FB8004FFF52 /* ContentView+ToolbarContent.swift */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		28EED6A1275FC87600E97E98 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				28EED6A2275FC87600E97E98 /* Tests_iOS.swift */,
+				28EED6A4275FC87600E97E98 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		28EED6AD275FC87600E97E98 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				28EED6AE275FC87600E97E98 /* Tests_macOS.swift */,
+				28EED6B0275FC87600E97E98 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		9B1B5B0538377BB50E828116 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD98830FF830A3327DC80519 /* Pods_GameOfLife__iOS_.framework */,
+				553ED4E8F8E76461D8B767E7 /* Pods_GameOfLife__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E60BB9D29C517FC034D0960E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F248468F0FA44E9CD48711B8 /* Pods-GameOfLife (iOS).debug.xcconfig */,
+				E08E9506DFE434C42D3B7925 /* Pods-GameOfLife (iOS).release.xcconfig */,
+				EC22C4600D5B6C79C1AEB462 /* Pods-GameOfLife (macOS).debug.xcconfig */,
+				C2C0005381CF4704D6E07762 /* Pods-GameOfLife (macOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28EED690275FC87600E97E98 /* GameOfLife (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28EED6BA275FC87600E97E98 /* Build configuration list for PBXNativeTarget "GameOfLife (iOS)" */;
+			buildPhases = (
+				D4597825FB3B88E68BBFB3BE /* [CP] Check Pods Manifest.lock */,
+				28EED68D275FC87600E97E98 /* Sources */,
+				28EED68E275FC87600E97E98 /* Frameworks */,
+				28EED68F275FC87600E97E98 /* Resources */,
+				E4E02AD0D3091789C4E4B506 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GameOfLife (iOS)";
+			productName = "GameOfLife (iOS)";
+			productReference = 28EED691275FC87600E97E98 /* GameOfLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28EED696275FC87600E97E98 /* GameOfLife (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28EED6BD275FC87600E97E98 /* Build configuration list for PBXNativeTarget "GameOfLife (macOS)" */;
+			buildPhases = (
+				9A983146F979418ED7E10380 /* [CP] Check Pods Manifest.lock */,
+				28EED693275FC87600E97E98 /* Sources */,
+				28EED694275FC87600E97E98 /* Frameworks */,
+				28EED695275FC87600E97E98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GameOfLife (macOS)";
+			productName = "GameOfLife (macOS)";
+			productReference = 28EED697275FC87600E97E98 /* GameOfLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28EED69D275FC87600E97E98 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28EED6C0275FC87600E97E98 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				28EED69A275FC87600E97E98 /* Sources */,
+				28EED69B275FC87600E97E98 /* Frameworks */,
+				28EED69C275FC87600E97E98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28EED6A0275FC87600E97E98 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 28EED69E275FC87600E97E98 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		28EED6A9275FC87600E97E98 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28EED6C3275FC87600E97E98 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				28EED6A6275FC87600E97E98 /* Sources */,
+				28EED6A7275FC87600E97E98 /* Frameworks */,
+				28EED6A8275FC87600E97E98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28EED6AC275FC87600E97E98 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 28EED6AA275FC87600E97E98 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28EED685275FC87500E97E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					28EED690275FC87600E97E98 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					28EED696275FC87600E97E98 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					28EED69D275FC87600E97E98 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 28EED690275FC87600E97E98;
+					};
+					28EED6A9275FC87600E97E98 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 28EED696275FC87600E97E98;
+					};
+				};
+			};
+			buildConfigurationList = 28EED688275FC87500E97E98 /* Build configuration list for PBXProject "GameOfLife" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28EED684275FC87500E97E98;
+			productRefGroup = 28EED692275FC87600E97E98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28EED690275FC87600E97E98 /* GameOfLife (iOS) */,
+				28EED696275FC87600E97E98 /* GameOfLife (macOS) */,
+				28EED69D275FC87600E97E98 /* Tests iOS */,
+				28EED6A9275FC87600E97E98 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28EED68F275FC87600E97E98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C68A0A32A1644F500507A8C /* GoogleService-Info.plist in Resources */,
+				28EED6B6275FC87600E97E98 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EED695275FC87600E97E98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C68A0A42A1644F500507A8C /* GoogleService-Info.plist in Resources */,
+				28EED6B7275FC87600E97E98 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EED69C275FC87600E97E98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EED6A8275FC87600E97E98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A983146F979418ED7E10380 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GameOfLife (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4597825FB3B88E68BBFB3BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GameOfLife (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4E02AD0D3091789C4E4B506 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GameOfLife (iOS)/Pods-GameOfLife (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GameOfLife (iOS)/Pods-GameOfLife (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GameOfLife (iOS)/Pods-GameOfLife (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28EED68D275FC87600E97E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286154E62762108A004FFF52 /* ContentView+ToolbarActions.swift in Sources */,
+				28EED6B4275FC87600E97E98 /* ContentView.swift in Sources */,
+				286154E427620FCB004FFF52 /* ContentView+ToolbarContent.swift in Sources */,
+				28EED6B2275FC87600E97E98 /* GameOfLifeApp.swift in Sources */,
+				286154DE27620765004FFF52 /* CellView.swift in Sources */,
+				286154DA276206D2004FFF52 /* Cell.swift in Sources */,
+				3C68A0A72A16473300507A8C /* LoginView.swift in Sources */,
+				286154E8276210BC004FFF52 /* ContentView+Grid.swift in Sources */,
+				286154EC2762121D004FFF52 /* CustomNavigationView.swift in Sources */,
+				28EED6C7275FC9ED00E97E98 /* GOLModel.swift in Sources */,
+				286154D72762069F004FFF52 /* Grid.swift in Sources */,
+				286154EF276213E2004FFF52 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EED693275FC87600E97E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286154E92762118F004FFF52 /* ContentView+ToolbarActions.swift in Sources */,
+				28EED6B5275FC87600E97E98 /* ContentView.swift in Sources */,
+				286154E227620FB8004FFF52 /* ContentView+ToolbarContent.swift in Sources */,
+				28EED6B3275FC87600E97E98 /* GameOfLifeApp.swift in Sources */,
+				286154DF27620765004FFF52 /* CellView.swift in Sources */,
+				286154DB276206D2004FFF52 /* Cell.swift in Sources */,
+				3C68A0A82A16473300507A8C /* LoginView.swift in Sources */,
+				286154EA2762119C004FFF52 /* ContentView+Grid.swift in Sources */,
+				286154ED2762121D004FFF52 /* CustomNavigationView.swift in Sources */,
+				28EED6C8275FC9ED00E97E98 /* GOLModel.swift in Sources */,
+				286154D82762069F004FFF52 /* Grid.swift in Sources */,
+				286154F0276213E2004FFF52 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EED69A275FC87600E97E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28EED6A5275FC87600E97E98 /* Tests_iOSLaunchTests.swift in Sources */,
+				28EED6A3275FC87600E97E98 /* Tests_iOS.swift in Sources */,
+				286154D42761FB94004FFF52 /* GOLModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EED6A6275FC87600E97E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28EED6B1275FC87600E97E98 /* Tests_macOSLaunchTests.swift in Sources */,
+				28EED6AF275FC87600E97E98 /* Tests_macOS.swift in Sources */,
+				286154D52761FB95004FFF52 /* GOLModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28EED6A0275FC87600E97E98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28EED690275FC87600E97E98 /* GameOfLife (iOS) */;
+			targetProxy = 28EED69F275FC87600E97E98 /* PBXContainerItemProxy */;
+		};
+		28EED6AC275FC87600E97E98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28EED696275FC87600E97E98 /* GameOfLife (macOS) */;
+			targetProxy = 28EED6AB275FC87600E97E98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28EED6B8275FC87600E97E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28EED6B9275FC87600E97E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		28EED6BB275FC87600E97E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F248468F0FA44E9CD48711B8 /* Pods-GameOfLife (iOS).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JLC9YVG32L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kurs.GameOfLife;
+				PRODUCT_NAME = GameOfLife;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28EED6BC275FC87600E97E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E08E9506DFE434C42D3B7925 /* Pods-GameOfLife (iOS).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JLC9YVG32L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kurs.GameOfLife;
+				PRODUCT_NAME = GameOfLife;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28EED6BE275FC87600E97E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC22C4600D5B6C79C1AEB462 /* Pods-GameOfLife (macOS).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F992DREF6G;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukaspistrol.GameOfLife;
+				PRODUCT_NAME = GameOfLife;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		28EED6BF275FC87600E97E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2C0005381CF4704D6E07762 /* Pods-GameOfLife (macOS).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F992DREF6G;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukaspistrol.GameOfLife;
+				PRODUCT_NAME = GameOfLife;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		28EED6C1275FC87600E97E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F992DREF6G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lukaspistrol.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GameOfLife (iOS)";
+			};
+			name = Debug;
+		};
+		28EED6C2275FC87600E97E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F992DREF6G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lukaspistrol.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GameOfLife (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28EED6C4275FC87600E97E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F992DREF6G;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lukaspistrol.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "GameOfLife (macOS)";
+			};
+			name = Debug;
+		};
+		28EED6C5275FC87600E97E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F992DREF6G;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lukaspistrol.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "GameOfLife (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28EED688275FC87500E97E98 /* Build configuration list for PBXProject "GameOfLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28EED6B8275FC87600E97E98 /* Debug */,
+				28EED6B9275FC87600E97E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28EED6BA275FC87600E97E98 /* Build configuration list for PBXNativeTarget "GameOfLife (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28EED6BB275FC87600E97E98 /* Debug */,
+				28EED6BC275FC87600E97E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28EED6BD275FC87600E97E98 /* Build configuration list for PBXNativeTarget "GameOfLife (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28EED6BE275FC87600E97E98 /* Debug */,
+				28EED6BF275FC87600E97E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28EED6C0275FC87600E97E98 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28EED6C1275FC87600E97E98 /* Debug */,
+				28EED6C2275FC87600E97E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28EED6C3275FC87600E97E98 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28EED6C4275FC87600E97E98 /* Debug */,
+				28EED6C5275FC87600E97E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28EED685275FC87500E97E98 /* Project object */;
+}
